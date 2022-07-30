@@ -1,0 +1,19 @@
+
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom px-5 bg-primary text-white">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">
+            Check-Tes-Comptes
+        </a>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="{{ path('app_accueil') }}" class="nav-link px-2 link-light">Accueil</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">Synthèse</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">Ajouter</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">Mon compte</a></li>
+            <li><a href="#" class="nav-link px-2 link-light">Calculatrice</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+            <a href="{{ path('app_login') }}" class="btn btn-outline-dark me-2">Connexion</a>
+            <a href="{{ path('app_register') }}" class="btn btn-outline-light">Inscription</a>
+        </div>
+    </header>
